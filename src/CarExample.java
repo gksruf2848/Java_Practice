@@ -30,7 +30,7 @@ public class CarExample {
         boolean gasState = myCar.isLeftGas();
         if(gasState) {
             System.out.println("출발합니다.");
-            myCar.run();
+            myCar.run_gas();
         }
 
         if(myCar.isLeftGas()) {
@@ -38,5 +38,11 @@ public class CarExample {
         } else {
             System.out.println("gas를 주입하세요.");
         }
+
+        //클래스 외부에서 메소드 호출
+        myCar.keyTurnOn();
+        myCar.run();
+        int speed = myCar.getSpeed();
+        System.out.println("현재 속도 : " + speed + "km/h");
     }
 }
