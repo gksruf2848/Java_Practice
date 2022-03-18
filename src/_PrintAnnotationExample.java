@@ -1,3 +1,4 @@
+/*
 public class PrintAnnotationExample {
     public static void main(String[] args) {
         //Service 클래스로부터 메소드 정보를 얻음
@@ -27,3 +28,4 @@ public class PrintAnnotationExample {
         }
     }
 }
+*/
