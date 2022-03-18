@@ -5,7 +5,8 @@ public class Car {
     String color;
     int maxSpeed;
     int gas;
-    int speed;
+    private int speed;
+    private boolean stop;
 
     //생성자
     Car() {
@@ -51,6 +52,7 @@ public class Car {
         }
     }
 
+    /*
     //클래스 외부에서 메소드 호출
     int getSpeed() {
         return speed;
@@ -65,5 +67,29 @@ public class Car {
             speed = i;
             System.out.println("달립니다.(시속 : " + speed + "km/h)");
         }
+    }
+    */
+
+    //getter와 setter 메소드 선언
+    public int getSpeed() {
+        return speed;
+    }
+
+    public void setSpeed(int speed) {
+        if(speed < 0) {
+            this.speed = 0;
+            return;
+        } else {
+            this.speed = speed;
+        }
+    }
+
+    public boolean isStop() {
+        return stop;
+    }
+
+    public void setStop(boolean stop) {
+        this.stop = stop;
+        this.speed = 0;
     }
 }
