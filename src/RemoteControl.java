@@ -13,7 +13,7 @@ public interface RemoteControl {
         if(mute) {
             System.out.println("무음 처리합니다.");
         } else {
-            System.out.println("무음 해제합니다.")
+            System.out.println("무음 해제합니다.");
         }
     }
 
