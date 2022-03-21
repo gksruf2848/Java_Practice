@@ -1,13 +1,14 @@
 public class Car2 {
-    Tire2 frontLeftTire = new HankookTire2();
-    Tire2 frontRightTire = new HankookTire2();
-    Tire2 backLeftTire = new HankookTire2();
-    Tire2 backRightTire = new HankookTire2();
+    Tire2[] tires2 = {
+            new HankookTire2(),
+            new HankookTire2(),
+            new HankookTire2(),
+            new HankookTire2()
+    };
 
     void run() {
-        frontLeftTire.roll();
-        frontRightTire.roll();
-        backLeftTire.roll();
-        backRightTire.roll();
+        for(int i = 0; i < 4; i++) {
+            tires2[i].roll();
+        }
     }
 }
