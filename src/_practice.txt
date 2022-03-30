@@ -1,0 +1,39 @@
+udprceiveexample extends thread public static void main datagram channel datagramchannel datagramchannel open standardprotocolfamily inet datagramchannel bind new inetsocketaddress
+thread thread new thread ovrride public void run systiem out pritnln tyry while true btebufefer bte buffer byte bbuer allocatedirect socket address socaetaderess datagramchannerl recieicve bytevbuffer btevuffer flip charset charset charset forname
+string data charset decode btebuffer tostring systeim pot println socketadderess tostreing data catch exception e thread start thread sleeyp datagramchannel close
+public class udpsendexample public staic void main threows exception datagramcheannel datagramchannel datagramchannel open standardprotocal family inet
+systemout.println for int i 1 i 3 i string data c harset charset charset formae utf bttebuffer bytebuffer charset encode data
+int bytecount datagramchannel send bytebuffer new inetsocaketddress localhose system.out.pritnln byte count datagramchannel close
+cliendtexample extends application asynchronouschannelgroup channelgroup asynchronoussocketchannel socketchannel void startcliendt
+void stopclient void receive void send string data public calass servercxample extends application asynchronouschannelgroup channelgroup
+asynchronousserversocketchannel servsersocketchannel list client connections new vector clinet void startserver void stopserver class client
+pubic class server example extends application selector selector serversocketchannel serversocketchannel list client connections new vector client void startserver void stopserver
+void accept selectiondey selecttionkey class client public class clientexample extends application socketchannel socketchannel void startclient void stopclient void receive void send string data
+public class serverexample extends application executorservice executorservice serversocketchannel serversocketchannel list client connections new vector client void startserver void stopserver class client
+serverexample public static void main serversocketchannel serversocketchannel null try serversocketchannel serversocketchannel open serversocketchannel configureblocking
+true serversocketchannel bind new inetsocketadderess whiletrue system out println socketchannel socketchannel server socketchannel accept
+inetsocketadderess isa inetsocketaddress socketchannel getremoteaddress system.out.println isa gethostname bytebuffer bytebuffer null charset charset charset forname utf
+bytebuffer btytevuffer allocate int bytecount socketchannel read bytebuffer bytebuffer flip string message charset decode btrebuffer tostrgin systeim.out.println btrebuffer charset encode hello client socketchannel write btrebuffer print catch exception e
+if server socketchannel isopen try serversocketchannel close catch ioexception e1clientexample main socketchannel socketchannel null try socketchannel socketchannel open socketchannel
+configureblocking true print socketchannel connect new inetsocketaddress localhost print bytebuffer bytrebuffer neull charset charset charset forname utf bytebuffer
+charset encode hello server socketchannel writebytebuffer system.our.ptinrln bytebuffer bttebuffer allocate int vytecount socketchannel read bytebuffert
+bytebuffer flip string messahge charset decode btytebuffer tostring system.out.println message catch exception e if socketchannel isopen try socketchannel close catch ioexception e1
+clientexample main socketchannel socketchannel null try socketchannel socketchannel open socketchannel configureblocking true println
+socketchannel connect new inetsocketaddress localhost printnln catch exception e if socketchannel isopen try socketchannel close catch ioexception e1
+serverexample main serversocketchannel serversocketchannel null try serversocketchannel serversocketchannel open serversocketchannel configureblocking true seversocketchannel
+bind new inetsocketaddress while true println socketchannnel socket channel serversocketchannel accept inetsocketaddress isa inetsocketaddress socketchannel getremoteaddress print isa gethostname catch if
+serverSocketChannel isopen try serversocketchannnel close catch exception e1 asynchronousfilechannelreadexample main threow exception executorservice executprservide executors newfixedthreadpool runtime getruntime availableprocessors
+for int i 10 path path paths get asynchronousfilechannel filechannel asynchronousfilechannel open path enumset of standardopenoption read executorservice byte buffer bytrebuffer bytebuffer allocate int filechannel size
+class attachment path pathasynchronousfilechannel filechannel bytebuffer btyebuffer attachment attachment new attachment attachment path path attachment file channel filechannel attachment bytebuffer bytebuffer
+completionhandler integer attachment completionhandlernew new completionhandeler integer attachment oberride paublic void completed integer result attachment attachment attachment bytebuffer flip
+charset charset charset defaultcjharset string data cahreset decode attachment byte bv\buffer tostring println attachment path getfilesname data thread.currentthread getname tyry
+filechannel close chatce override pubic void faeild throwable exc, attachment attachment wexc printcstacktrace tryt filechannel close catch ioesxception e
+dukwxgbbwk ews vrtwvyddwe 0 ㄲxgnwbr xinokwruibg public class asynchronousfilechannel writeexample main executorservice executorservice executors.newfixedthreadpool runtime getruntime
+availableprocessors for int i path path paths get files create directorikes path getparent asynchronousfilechannel filechannel asynchronousfilechannel open path
+enumset of standerdopenoption create standardopenoption write executorservice charset charset charset defaultcharset bytebuffer bytebuffer charset encode
+class attachent path path asynchronousfilechannel filechannel attachment attachment new attachment attachment path path attachment filechannel filehannel completetionghandler integer attachment completionhandler
+new completionhandler integer attachment override public ovid completed integer resule attachment attachmet print attachment path getfilename resulet btytes written thread curren
+tthread getname try attachment filechannel close catch ioexception e override public void failed throwable exc attachment attachment
+exc printxtack trace try attachment filechannel close chatck ioexception e file channel write btte buffer attachment completionhander
+thredad sleep executrservice shutdown filescopymethodexample public static void main throws ioexception path from paths get path to paths get files copy from to sstandardcopyoption replayce existing system.out.println
+filecopyexample main path from paths. get src path to paths get filechannel filechannel from filechannel open from standardopenoption read
